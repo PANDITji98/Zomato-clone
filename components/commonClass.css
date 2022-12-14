@@ -1,0 +1,28 @@
+/* Here, we are using CSS names to simply assign the CSS names to the divs or any other things that are need to be rendered */
+
+.max-width{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.absolute-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}                                       /*THIS NIGGA CAN CENTER AMYTHING IN THE WORLD*/
+
+.cur-po{
+    cursor: pointer;
+}
+
+.collection-title{
+font-size: 30px;
+color: var(--heading-text);
+margin-bottom: 32px;
+font-weight: 600;
+}
+
+.slick-next:before,
+.slick-prev:before{
+    color: var(--grey);
+}

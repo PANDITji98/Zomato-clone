@@ -1,0 +1,22 @@
+.delivery-item-cover{
+    height: 90px;
+    width: 260px;
+    background-color: var(--primary-bg);
+    box-shadow: var(--collection-shadow);
+    border-radius: 8px;
+}
+
+.delvery-item-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.delivery-item-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-overflow: ellipsis;                  /*google this goddamn thing again to know*/
+    overflow: hidden;
+    margin-top: 6px;
+}
