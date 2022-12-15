@@ -1,33 +1,27 @@
 import React from 'react'
-import ActiveDeliveryImg from '../components/Delivery_activeimg.png'
-import InActiveDeliveryImg from '../components/Delivery_inactiveimg.png'
-import ActiveDinningImg from '../components/Dinning_activeimg.png'
-import InActiveDinningImg from '../components/Dinning_inactiveimg.png'
-import ActiveNightLifeImg from '../components/nightlife_activeimg.jpg'
-import InActiveNightLifeImg from '../components/nightlife_inactiveimg.jfif'
 import './options.css'
 
 const tabs = [
   {
     id: 1,
     name: "Delivery",
-    active_img: {ActiveDeliveryImg},
+    active_img: "https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png", 
     backdrop: '#FCEECO',
-    inactive_img: {InActiveDeliveryImg} 
+    inactive_img: "https://b.zmtcdn.com/data/o2_assets/246bbd71fbba420d5996452be3024d351616150055.png"
   },
   {
     id: 2,
     name: "DinningOut",
-    active_img: {ActiveDinningImg},
+    active_img: "https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png",
     backdrop: '#FCEECO',
-    inactive_img: {InActiveDinningImg}
+    inactive_img: "https://b.zmtcdn.com/data/o2_assets/78d25215ff4c1299578ed36eefd5f39d1616149985.png"
   },
   {
     id: 3,
     name: "NightLife",
-    active_img: {ActiveNightLifeImg},
+    active_img: "https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png",
     backdrop: '#FCEECO',
-    inactive_img: {InActiveNightLifeImg}
+    inactive_img: "https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png"
   }
 ]
 const Options = ({activeTab, setActiveTab}) => {                                    //destructured the useState instad of using the PROPS
